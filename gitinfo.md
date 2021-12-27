@@ -58,12 +58,17 @@ Note: If you find yourself stuck in the list view, SHIFT + G to jump the end of 
 
 In Git, a branch is a new/separate version of the main repository.
 
-### New Git Branch
 
+### New Git Branch
 git branch _hello-world-images_  
 creates new branch
 
 git branch  
 _lists branches_  
 git checkout hello-world-images  
-moves to hello-world-images branch
+moves to hello-world-images branch  
+
+### New Git Branch
+*Note*: Using the -b option on checkout will create a new branch, and move to it, if it does not exist
+
+git checkout -b emergency-fix
