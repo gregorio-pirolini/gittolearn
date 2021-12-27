@@ -64,6 +64,18 @@ git branch _hello-world-images_
 creates new branch
 
 git branch  
-_lists branches_  
+_lists branches_ 
+
 git checkout hello-world-images  
-moves to hello-world-images branch
+*moves to hello-world-images branch*
+
+git checkout -b hello-you 
+*creates branch and moves to hello-you branch*
+
+
+## Git Branch Merge
+git merge emergency-fix
+merge the emergnecy fix on other branch
+
+git branch -d emergency-fix
+*deletes branch emergency-fix*
